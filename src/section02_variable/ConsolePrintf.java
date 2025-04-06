@@ -22,7 +22,7 @@ package section02_variable;
  *  
  * 
  */
-public class consolePrintf {
+public class ConsolePrintf {
 	
 	public static void main(String[] args) {
 		
