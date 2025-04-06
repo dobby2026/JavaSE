@@ -3,6 +3,8 @@ package section02_variable;
 import java.util.Scanner;
 
 /*
+ * 
+ * 
  * Scanner 클래스
  * 	java.util 패키지에 포함된 클래스
  * 	키보드 입력을 위해 가장 많이 사용되는 클래스
