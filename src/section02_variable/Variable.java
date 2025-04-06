@@ -36,6 +36,13 @@ package section02_variable;
  * 		boolean		1byte			true/false
  * 
  * 
+ * 변수명 작성 규칙
+ * 	영어 대소문자 구분
+ * 	첫 글자는 숫자로 시작할 수 없음(영어 소문자로 시작 권장)
+ * 	특수문자는 '$'와 '_'만 사용 가능
+ * 	자바 예약어는 사용 불가능
+ * 	
+ * 
  */
 public class Variable {
 	
