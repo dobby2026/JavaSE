@@ -1,4 +1,4 @@
-package chapter01_intro;
+package section01_intro;
 /* 여러줄 주석: 코드에 영향을 주지 않는 공간
  * 
  * 변수란?
@@ -12,7 +12,7 @@ package chapter01_intro;
  *  
  */
 // 한줄 주석
-public class VariableTest {
+public class VariableExample {
 	
 	// 프로그램 시작 main 메서드
 	public static void main(String[] args) {
