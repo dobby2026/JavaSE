@@ -22,7 +22,7 @@ package section02_variable;
  *  
  * 
  */
-public class ConsolePrintf {
+public class consolePrintf {
 	
 	public static void main(String[] args) {
 		
@@ -35,7 +35,9 @@ public class ConsolePrintf {
 		// 이스케이프 예제
 		System.out.println("\"Hello, World!\"");
 		
-		System.out.println("안녕하세요.\n이것은 줄 바꿈입니다.\n탭 간격: \t1\t2\t3");
+		System.out.println("안녕하세요.\n이것은 줄 바꿈입니다.\n탭 간격 : \t1\t2\t3");
+		
+			
 	}
 
 }
