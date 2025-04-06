@@ -15,36 +15,24 @@ import java.util.Scanner;
  * 
  */
 public class ScannerEx {
-	
+
 	public static void main(String[] args) {
 		// Scanner 객체 생성
 		Scanner scanner = new Scanner(System.in);
-		
+
 		// 정수 입력 받기
 		System.out.println("나이를 입력해 주세요.");
 		int age = scanner.nextInt();
 		System.out.printf("내 나이는 %d세입니다.", age);
-		
+
 		// 문자열 입력 받기
 		System.out.println("\n이름을 입력해 주세요.");
 		String name = scanner.next();
 		System.out.println("안녕하세요, " + name + "님!");
-		
-		
+
 		// scanner 자원 해제
 		scanner.close();
-		
+
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
