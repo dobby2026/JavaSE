@@ -8,6 +8,8 @@ package chapter01_intro;
  * 
  *  자료형 변수명;  // 변수선언
  *  변수명 = 값;	 // 최초 값 대입을 초기화
+ *  
+ *  
  */
 // 한줄 주석
 public class VariableTest {
