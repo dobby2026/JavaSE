@@ -43,6 +43,7 @@ import java.math.BigDecimal;
  *  실수 값을 저장할 때 데이터 크기가 큰 타입일수록 근사치에 가까워진다!
  * 
  * 
+ * 
  */
 public class DataEx {
 	
