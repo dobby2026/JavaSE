@@ -1,9 +1,7 @@
 package section02_variable;
 
 import java.util.Scanner;
-
 /*
- * 
  * 
  * Scanner 클래스
  * 	java.util 패키지에 포함된 클래스
