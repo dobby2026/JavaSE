@@ -24,6 +24,8 @@ public class Conditional04 {
 			System.out.println("유아입니다.");
 		}
 		
+		sc.close();
+		
 	}
 
 }
