@@ -1,4 +1,4 @@
-package section03;
+package section03_operator;
 /*
  * 연산자(Operator)
  * 	데이터를 처리하여 결과를 산출하는 기호

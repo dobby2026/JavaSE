@@ -1,4 +1,4 @@
-package section03;
+package section03_operator;
 /*
  * 7. 쉬프트연산자
  * 	<< : 지정한 수만큼 비트를 전부 왼쪽으로 이동시킴

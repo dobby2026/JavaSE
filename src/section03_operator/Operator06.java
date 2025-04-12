@@ -1,4 +1,4 @@
-package section03;
+package section03_operator;
 /*
  * 6. 비트연산자
  * 	2진수로 표현된 두 비트 연산자

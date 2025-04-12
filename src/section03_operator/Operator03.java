@@ -1,4 +1,4 @@
-package section03;
+package section03_operator;
 /*
  * 3. 비교연산자
  * 	연산 결과를 비교하여 boolean으로 반환한다.

@@ -1,4 +1,4 @@
-package section03;
+package section03_operator;
 /*
  * 2. 증감연산자
  * 	++ : 1씩 증가시킨다.

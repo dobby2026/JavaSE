@@ -1,4 +1,4 @@
-package section03;
+package section03_operator;
 /*
  * 5. 대입 연산자
  * 	= : 단순대입

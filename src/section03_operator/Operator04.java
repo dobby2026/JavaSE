@@ -1,4 +1,4 @@
-package section03;
+package section03_operator;
 /*
  * 4. 논리 연산자
  * 	&& : And 조건, 교집합 개념, 두 항 모두 true 일때 true
