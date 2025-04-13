@@ -8,7 +8,7 @@ public class Operator08 {
 	
 	public static void main(String[] args) {
 		
-		int num = -10;
+		int num = 10;
 		String result;
 		
 		result = num > 0 ? "num은 양수" : "num은 음수";

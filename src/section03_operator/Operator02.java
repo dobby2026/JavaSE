@@ -12,7 +12,7 @@ public class Operator02 {
 		int num = 0;
 		num = num + 1;
 		System.out.println("num : " + num);	// num: 1
-		++num;	// num 1증가
+		++num;	// num 1증가	  num = num + 1
 		System.out.println("num : " + num);	// num: 2
 		
 		int num2 = 0;

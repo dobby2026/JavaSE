@@ -30,6 +30,9 @@ public class Operator04 {
 		System.out.println(b1 ^ b2);
 		System.out.println(b1 ^ b3);
 		
+		
+		System.out.println(false ^ true); // XOR 두 조건이 서로 다를 때만 true
+		
 	}
 
 }

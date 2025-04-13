@@ -18,6 +18,8 @@ public class Conditional03 {
 		
 		int favorite = 7;
 		
+		int age = 19;
+		
 		if(favorite < 5) {
 			System.out.println("좋아하는 숫자가 5보다 작습니다.");
 		} else if(favorite > 5) {
