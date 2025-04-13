@@ -10,8 +10,6 @@ package section05_loop;
 ******
 *******
 
-
-
 2번
    *
   **
@@ -35,9 +33,6 @@ package section05_loop;
    *		
  
 
-
-
-
  */
 
 public class LoopHomeWork01 {
@@ -47,9 +42,7 @@ public class LoopHomeWork01 {
 		for(int i = 0; i < 7; i++) {
 			
 			for(int j = 0; j < i+1; j++) {
-				
 				System.out.print("*");
-				
 			}
 			
 			System.out.println();
