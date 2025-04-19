@@ -5,7 +5,7 @@ package section06_array;
  * 
  */
 
-public class Arra04 {
+public class Array04 {
 	
 	public static void main(String[] args) {
 		
