@@ -1,7 +1,11 @@
 package section05_loop;
 /*
+g < 3
+0 dan = 2 + j + (g * 3)
+1 dan = 2 + j + (g * 3)
+2 dan = 2 + j + (g * 3)
  
-dan = 2+j
+dan = 2+j 
 num = i+1
 result = dan * num
 2 X 1 = 2	3 X 1 = 3	4 X 1 = 4	
@@ -41,22 +45,24 @@ public class LoopHomeWork02 {
 	
 	public static void main(String[] args) {
 		
-		for(int i=0; i < 9; i++) {
-			for(int j=0; j < 3; j++) {
-				// dan X num = result
-				int dan = 2+j;
-				int num = i+1;
-				int result = dan * num;
-				
-				System.out.printf("%d X %d = %d\t", dan, num, result);
-			}
-			
-			System.out.println(); // 개행
-			
-		}
-		
-	}
+		for(int g=0; g < 3; g++) {
+			for(int i=0; i < 9; i++) {
+				for(int j=0; j < 3; j++) {
+					// dan X num = result
+					int dan = 2 + j + (g * 3);
+					int num = i + 1;
+					int result = dan * num;
 
+					if(dan < 10) {
+						System.out.printf("%d X %d = %d\t", dan, num, result);
+					}
+					
+				}
+				System.out.println(); // 개행
+			}
+			System.out.println(); // 개행
+		}
+	}
 }
 
 
