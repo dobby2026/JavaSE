@@ -44,7 +44,9 @@ public class ClassEx07 {
 		
 		Card card1 = new Card();
 		
-		card1.cardInfo();		
+		card1.cardInfo();	
+		
+		
 	}
 
 }

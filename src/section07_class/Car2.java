@@ -2,13 +2,15 @@ package section07_class;
 
 public class Car2 {
 	
-	int wheel = 2;
+	int wheel;
 	String color;
+	static String brand;
 	
 	// 생성자 - 클래스와 동일한 이름
 	Car2() {
 		wheel = 4;
 		color = "빨간색";
+		brand = "테슬라";
 		System.out.println("Car2 객체가 생성되었습니다.");
 	}
 	
