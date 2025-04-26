@@ -18,7 +18,6 @@ package section07_class;
  *  	지역변수, 매개변수, 메서드 정보 등이 저장
  *  	메서드 호출이 끝나면 스택 프레임 제거
  * 
- * 
  */
 
 class Person {
@@ -32,10 +31,34 @@ class Person {
 		System.out.println(greeting + " 저는 " + name +"이고, " + age + "살 입니다.");
 		System.out.println("저는 " + country + "에 살고 있습니다.");
 	}
+	
+	public static void changeCountry() {
+		country = "대한민국";
+	}
 }
 
 
 public class JVM {
+	
+	public static void main(String[] args) {
+		
+		int count = 2;
+		
+		Person person1 = new Person();
+		Person person2 = new Person();
+		
+		person1.name = "홍길동";
+		person1.age = 25;
+		
+		person2.name = "손흥민";
+		person2.age = 32;
+		
+		person1.introduce();
+		person2.introduce();
+		
+		Person.changeCountry();
+		
+	}
 
 }
 
