@@ -4,7 +4,7 @@ public class Snack2 {
 	int price;
 	
 	Snack2(){
-		this.price = 1500;
+		price = 1500;
 	}
 	
 	// 생성자 오버로딩
